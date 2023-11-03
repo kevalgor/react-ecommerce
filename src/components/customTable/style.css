@@ -1,0 +1,33 @@
+table {
+  width: 100%;
+  text-align: center;
+  border-radius: 10px 10px 0px 0px;
+  overflow: hidden;
+  text-align: left;
+}
+
+table thead tr {
+  background-color: #001c44;
+  color: #ffffff;
+  height: 60px;
+  text-align: left;
+}
+
+table thead tr th {
+  padding: 0px 25px;
+  white-space: nowrap;
+}
+
+table tbody tr {
+  height: 60px;
+  border-bottom: 1px solid #001c44;
+}
+
+table tbody tr:hover {
+  background-color: #d4e6ff;
+}
+
+table tbody tr td {
+  padding: 0px 25px;
+  white-space: nowrap;
+}
